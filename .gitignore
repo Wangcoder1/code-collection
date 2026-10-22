@@ -1,0 +1,35 @@
+# Visual Studio 构建输出与临时文件
+# 只影响"未跟踪"的文件，不会改动已提交到仓库的文件
+
+# 用户级工程设置
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# 构建目录
+x64/
+Debug/
+Release/
+ipch/
+.vs/
+
+# 编译中间产物
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+
+# 生成的可执行文件
+*.exe
+*.dll
+*.lib
+*.exp
+
+# 其它编辑器/系统临时文件
+*.tmp
+*.log
+Thumbs.db
